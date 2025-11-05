@@ -17,6 +17,8 @@ It serves as a digital portfolio to share my story, showcase projects, and conne
 
 Technologies Used
 - HTML5 (semantic elements)
-- Git & GitHub for version control and hosting
-- GitHub Pages for deployment
+- Form Input Types & Validation
+- CSS Styling
+- Version Control & Deployment Platform
+- Accessibility
 
