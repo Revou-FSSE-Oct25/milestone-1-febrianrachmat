@@ -2,23 +2,26 @@
 
 
 
-Personal Portfolio Website — Rachmat Febrian
+    # Personal Portfolio Website — Rachmat Febrian
 
-    Overview
+    ## Overview
 This is the initial version of my personal website, developed as part of my web development learning journey.  
 It serves as a digital portfolio to share my story, showcase projects, and connect with employers or collaborators.
+This project was created during my learning program at RevoU
 
-    Features Implemented
+    ## Features Implemented
 - **Home Section** introducing who I am and what the site is about.
 - **About Me Section** summarizing education, skills, and interests.
-- **Projects Section** with placeholders for future project details.
+- **Projects Section** showcasing my early projects hosted on GitHub Pages and with placeholders for future project details.
 - **Contact Section** including a functional form with validation and accessibility labels.
 - Clear and semantic HTML structure.
 
-Technologies Used
-- HTML5 (semantic elements)
-- Form Input Types & Validation
-- CSS Styling
-- Version Control & Deployment Platform
-- Accessibility
+    ## Technologies Used
+- **HTML5** (semantic elements)  
+- **Inline CSS Styling**  
+- **Basic Form Input Validation**  
+- **Accessibility-Friendly Markup**  
+- **Version Control** with GitHub  
+- **Deployment** via GitHub Pages
 
+This project uses AI assistance. I created the framework and basic patterns, then enlisted AI's help with the design and the addition of interesting features and technology, but still for beginners (me).
