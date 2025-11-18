@@ -1,33 +1,81 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/KTVBmApB)
+# 🌌 Rachmat Febrian — Personal Portfolio Website
 
-    link repo : https://github.com/Revou-FSSE-Oct25/milestone-1-febrianrachmat.git
-    kemarin ketika submit, saya belum ubah settingan ke publik, jadi TL mengarahkan untuk add link repo di readme ya kak
+This is a simple portfolio website that I created as part of my HTML & CSS learning journey.  
+I experimented with a **futuristic aesthetic design**, featuring **neon glow**, **glassmorphism**, and an **asymmetrical project layout**.
 
-   # Rachmat Febrian - Portfolio
+The website contains 4 main pages:
 
-This is the initial version of my personal website, developed as part of my web development learning journey.
-It serves as a digital portfolio to share my story, showcase projects, and connect with employers or collaborators. This project was created during my learning program at RevoU.
+- 🏠 Home  
+- 👤 About Me  
+- 🧱 Projects  
+- 📩 Contact 
 
-## Features Implemented :
+## 🚀 Features
 
-- Home Section introducing who I am and what the site is about.
+### 🌙 Futuristic Aesthetic Theme
+- Neon cyan & purple  
+- Soft glowing elements  
+- Glassmorphism surfaces  
+- Modern typography (Poppins)
 
-- About Me Section summarizing education, skills, and interests.
+### 🧱 Asymmetrical Flexbox Project Layout
+- The Projects page uses **Flexbox**  
+- Each project card has a different size (tall, wide, small, medium)  
+- Futuristic hover glow & floating effect  
 
-- Projects Section showcasing my early projects hosted on GitHub Pages and with placeholders for future project details.
+### 📱 Fully Responsive
+- Mobile-friendly layout  
+- Uses flex-wrap and media queries  
+- Asymmetrical cards remain visually balanced on smaller screens  
 
-- Contact Section including a functional form and also for you to connect/hire me.
+### 🔗 Futuristic Social Footer
+- GitHub, LinkedIn, Instagram icons  
+- Neon hover glow  
+- Glassmorphism footer panel  
 
-- Footer is linked to my social account.
+---
 
-## Technologies Used :
+## 🛠️ Built With
 
-1. HTML5
+- HTML5  
+- CSS3  
+- Flexbox  
+- Media Queries  
+- Simple Icons (SVG CDN)
 
-2. Inline CSS – for simple styling
+---
 
-3. Basic Form Elements
+## 📂 Project Structure
+/project-folder
+│── index.html
+│── about.html
+│── projects.html
+│── contact.html
+│── style.css
+│── assets/
+│ └── photo.jpg
+│── README.md
 
-4. Navigation
+## 📌 What I Learned
 
-5. Responsive Meta Tag
+- How to create a multipage website  
+- Building layouts using Flexbox  
+- Designing asymmetrical card layouts  
+- Applying futuristic UI concepts  
+- Creating responsive designs  
+- Organizing a clean project folder structure  
+
+---
+
+## 📧 Contact
+
+- GitHub: https://github.com/febrianrachmat  
+- LinkedIn: https://www.linkedin.com/in/rachmatfebrian/  
+- Instagram: https://www.instagram.com/rachmatfebrian/  
+
+---
+
+## 🎉 Closing
+
+This project is simple, but I’m proud of the progress and the futuristic aesthetic style I achieved.  
+I will continue learning and improving my front-end development skills.
