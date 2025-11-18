@@ -115,28 +115,92 @@ nav a:hover {
 }
 
 /* -------------------- PROJECT CARDS -------------------- */
-.card {
-  background: rgba(255, 255, 255, 0.04);
-  padding: 25px;
-  border-radius: 16px;
-  margin: 20px 0;
-  border-left: 4px solid #8b5cf6;
-  backdrop-filter: blur(10px);
-  transition: 0.3s ease;
+.projects-section {
+  text-align: center;
 }
 
-.card:hover {
-  transform: translateY(-5px);
-  border-left-color: #00eaff;
-  box-shadow: 0 0 20px rgba(0,238,255,0.2);
+.projects-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin-top: 35px;
+  justify-content: center;
 }
 
-.card a {
-  text-decoration: none;
-  color: #00eaff;
-  font-weight: 600;
+/* Base futuristic project card */
+.project-box {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.10);
+  backdrop-filter: blur(12px);
+  padding: 22px;
+  border-radius: 18px;
+  width: 260px;
+  transition: 0.35s ease;
+  box-shadow: 0 0 14px rgba(0, 238, 255, 0.12);
+}
+
+/* Hover glow */
+.project-box:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 0 18px rgba(0,238,255,0.35);
+  border-color: #00eaff;
+}
+
+.project-box h3 a {
   font-size: 20px;
+  font-weight: 700;
+  color: #00eaff;
+  text-decoration: none;
+  transition: 0.25s ease;
 }
+
+.project-box:hover h3 a {
+  text-shadow: 0 0 8px #00eaff;
+}
+
+.project-box p {
+  margin-top: 8px;
+  opacity: 0.85;
+}
+
+/* -------------------- ASYMMETRICAL SIZES -------------------- */
+.tall-box {
+  height: 240px;
+}
+
+.wide-box {
+  width: 350px;
+  height: 180px;
+}
+
+.small-box {
+  width: 220px;
+  height: 160px;
+}
+
+.medium-box {
+  width: 300px;
+  height: 200px;
+}
+
+/* -------------------- RESPONSIVE -------------------- */
+@media (max-width: 900px) {
+  .wide-box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .project-box,
+  .wide-box,
+  .tall-box,
+  .small-box,
+  .medium-box {
+    width: 100%;
+    height: auto;
+  }
+}
+
 
 /* -------------------- CONTACT FORM -------------------- */
 form {
