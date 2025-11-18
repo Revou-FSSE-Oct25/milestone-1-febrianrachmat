@@ -201,3 +201,58 @@ button:hover {
     height: 150px;
   }
 }
+
+/* -------------------- FOOTER FUTURISTIC -------------------- */
+.footer {
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255,255,255,0.08);
+  text-align: center;
+  padding: 28px 15px;
+  margin-top: 50px;
+  box-shadow: 0 -4px 18px rgba(0,0,0,0.3);
+}
+
+.footer p {
+  font-size: 16px;
+  opacity: 0.8;
+  margin-bottom: 12px;
+  letter-spacing: 0.6px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+/* ---- Ikon Sosial ---- */
+.icon-social {
+  width: 26px;
+  height: 26px;
+  transition: 0.25s ease;
+  filter: opacity(0.85);
+}
+
+/* GitHub white */
+.icon-social[alt="GitHub"] {
+  filter: invert(1) drop-shadow(0 0 6px rgba(255,255,255,0.3));
+}
+
+/* LinkedIn neon blue */
+.icon-social[alt="LinkedIn"] {
+  filter: invert(50%) sepia(96%) saturate(950%) hue-rotate(175deg) brightness(100%) contrast(92%)
+          drop-shadow(0 0 6px #00eaff);
+}
+
+/* Instagram neon pink */
+.icon-social[alt="Instagram"] {
+  filter: invert(42%) sepia(98%) saturate(1800%) hue-rotate(300deg) brightness(100%) contrast(95%)
+          drop-shadow(0 0 6px #ff2fd6);
+}
+
+/* Hover Futuristic Glow */
+.icon-social:hover {
+  transform: scale(1.25) translateY(-3px);
+  filter: brightness(1.4) drop-shadow(0 0 10px #00eaff);
+}
