@@ -37,11 +37,11 @@ The website contains 4 main pages:
 
 ## 🛠️ Built With
 
-- HTML5  
-- CSS3  
+- HTML 
+- CSS 
 - Flexbox  
 - Media Queries  
-- Simple Icons (SVG CDN)
+- Simple Icons
 
 ---
 
@@ -74,8 +74,6 @@ The website contains 4 main pages:
 - Instagram: https://www.instagram.com/rachmatfebrian/  
 
 ---
-
-## 🎉 Closing
 
 This project is simple, but I’m proud of the progress and the futuristic aesthetic style I achieved.  
 I will continue learning and improving my front-end development skills.
