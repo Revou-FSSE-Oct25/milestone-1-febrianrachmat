@@ -12,7 +12,7 @@ body {
   letter-spacing: 0.3px;
 }
 
-/* -------------------- HEADER -------------------- */
+
 header {
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(10px);
@@ -47,7 +47,7 @@ nav a:hover {
   text-shadow: 0 0 6px #00eaff;
 }
 
-/* -------------------- SECTIONS -------------------- */
+
 .section {
   max-width: 900px;
   margin: auto;
@@ -60,7 +60,7 @@ nav a:hover {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* -------------------- HOME PAGE -------------------- */
+
 .home-content {
   text-align: center;
 }
@@ -91,7 +91,7 @@ nav a:hover {
   font-size: 17px;
 }
 
-/* -------------------- INFO BOXES (ABOUT) -------------------- */
+
 .info-box {
   background: rgba(255, 255, 255, 0.04);
   padding: 28px;
@@ -114,7 +114,7 @@ nav a:hover {
   text-shadow: 0 0 10px rgba(0,238,255,0.4);
 }
 
-/* -------------------- PROJECT CARDS -------------------- */
+
 .projects-section {
   text-align: center;
 }
@@ -127,7 +127,7 @@ nav a:hover {
   justify-content: center;
 }
 
-/* Base futuristic project card */
+
 .project-box {
   background: rgba(255,255,255,0.05);
   border: 1px solid rgba(255,255,255,0.10);
@@ -139,7 +139,7 @@ nav a:hover {
   box-shadow: 0 0 14px rgba(0, 238, 255, 0.12);
 }
 
-/* Hover glow */
+
 .project-box:hover {
   transform: translateY(-8px) scale(1.02);
   box-shadow: 0 0 18px rgba(0,238,255,0.35);
@@ -163,7 +163,7 @@ nav a:hover {
   opacity: 0.85;
 }
 
-/* -------------------- ASYMMETRICAL SIZES -------------------- */
+
 .tall-box {
   height: 240px;
 }
@@ -183,7 +183,7 @@ nav a:hover {
   height: 200px;
 }
 
-/* -------------------- RESPONSIVE -------------------- */
+
 @media (max-width: 900px) {
   .wide-box {
     width: 100%;
@@ -202,7 +202,7 @@ nav a:hover {
 }
 
 
-/* -------------------- CONTACT FORM -------------------- */
+
 form {
   background: rgba(255, 255, 255, 0.04);
   padding: 30px;
@@ -248,7 +248,7 @@ button:hover {
   box-shadow: 0 0 12px rgba(0,238,255,0.4);
 }
 
-/* -------------------- RESPONSIVE -------------------- */
+
 @media (max-width: 760px) {
   header {
     flex-direction: column;
@@ -266,7 +266,49 @@ button:hover {
   }
 }
 
-/* -------------------- FOOTER FUTURISTIC -------------------- */
+.contact-table {
+  width: 100%;
+  margin-top: 25px;
+  border-collapse: collapse;
+  background: rgba(255,255,255,0.03);
+  backdrop-filter: blur(6px);
+  border-radius: 12px;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.contact-table thead {
+  background: rgba(255,255,255,0.08);
+  letter-spacing: 1px;
+}
+
+.contact-table th {
+  padding: 14px;
+  text-align: left;
+  color: #00eaff;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.contact-table td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  color: #e6e6ef;
+}
+
+.contact-table tr:hover {
+  background: rgba(0, 238, 255, 0.12);
+  transition: 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .contact-table th,
+  .contact-table td {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
 .footer {
   background: rgba(255,255,255,0.03);
   backdrop-filter: blur(10px);
@@ -290,7 +332,7 @@ button:hover {
   gap: 18px;
 }
 
-/* ---- Ikon Sosial ---- */
+
 .icon-social {
   width: 26px;
   height: 26px;
@@ -298,24 +340,24 @@ button:hover {
   filter: opacity(0.85);
 }
 
-/* GitHub white */
+
 .icon-social[alt="GitHub"] {
   filter: invert(1) drop-shadow(0 0 6px rgba(255,255,255,0.3));
 }
 
-/* LinkedIn neon blue */
+
 .icon-social[alt="LinkedIn"] {
   filter: invert(50%) sepia(96%) saturate(950%) hue-rotate(175deg) brightness(100%) contrast(92%)
           drop-shadow(0 0 6px #00eaff);
 }
 
-/* Instagram neon pink */
+
 .icon-social[alt="Instagram"] {
   filter: invert(42%) sepia(98%) saturate(1800%) hue-rotate(300deg) brightness(100%) contrast(95%)
           drop-shadow(0 0 6px #ff2fd6);
 }
 
-/* Hover Futuristic Glow */
+
 .icon-social:hover {
   transform: scale(1.25) translateY(-3px);
   filter: brightness(1.4) drop-shadow(0 0 10px #00eaff);
