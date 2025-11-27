@@ -6,7 +6,13 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: radial-gradient(circle at 20% 20%, #0f121a, #05060a);
+  background: 
+      linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+      url('../assets/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   color: #e6e6ef;
   line-height: 1.7;
   letter-spacing: 0.3px;
