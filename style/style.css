@@ -26,6 +26,7 @@ header {
 }
 
 header h1 {
+  font-family: "Orbitron", sans-serif;
   font-size: 22px;
   background: linear-gradient(90deg, #00eaff, #8b5cf6);
   -webkit-background-clip: text;
